@@ -38,7 +38,7 @@ A lightweight and practical NASM macro library designed to **make writing x86_64
 Include the library at the top of your main assembly file to start using the macros:
 
 ```nasm
-%include "libasm.inc"
+%include "serptenasm.inc"
 
 section .data
     filename db "my_file.txt", 0
